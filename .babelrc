@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+    // "@babel/preset-flow"
+  ],
+  "plugins": [
+    // "@babel/plugin-syntax-jsx",
+    // "@babel/plugin-syntax-typescript", //TMD影响className语法
+    // "@babel/plugin-transform-arrow-functions",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-classes",
+    "@babel/plugin-syntax-flow"
+  ]
+}

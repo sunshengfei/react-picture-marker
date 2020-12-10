@@ -1,0 +1,84 @@
+{
+  "name": "@sunshengfei/react-picture-marker",
+  "version": "0.0.1",
+  "private": false,
+  "license": "Apache License Version 2.0",
+  "main": "dist/index.js",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "ui-picture-bd-marker": "^2.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunshengfei/react-picture-marker"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-flow": "^7.12.1",
+    "@babel/plugin-syntax-jsx": "^7.12.1",
+    "@babel/plugin-syntax-typescript": "^7.12.1",
+    "@babel/plugin-transform-arrow-functions": "^7.12.1",
+    "@babel/plugin-transform-react-display-name": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-flow": "^7.12.1",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/runtime-corejs3": "^7.12.5",
+    "node-sass": "4.14.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.1",
+    "react-dom": ">=17.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "sideEffects": [
+    "lib/**/style/*",
+    "*.scss",
+    "*.less"
+  ],
+  "eslintConfig": {
+    "rules": {
+      "eqeqeq": "off",
+      "strict": "off",
+      "no-useless-computed-key": "off",
+      "no-undef": "off",
+      "no-restricted-globals": "off",
+      "no-unused-vars": "off",
+      "jsx-a11y/anchor-is-valid": "off",
+      "react/jsx-pascal-case": "off"
+    },
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "not ie <= 8"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "not ie <= 8"
+    ]
+  }
+}
